@@ -1,0 +1,12 @@
+@keyframes wiggle {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.wiggle:hover {
+  animation: wiggle 0.4s ease-in-out;
+  animation-iteration-count: 1; /* Run the animation 6 times (3 seconds total) */
+}
