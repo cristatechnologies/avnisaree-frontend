@@ -86,7 +86,7 @@ export default function About({ aboutData }) {
         <div className="aboutus-wrapper w-full py-10">
           <div className="container-x mx-auto">
             <div className="w-full min-h-[665px] lg:flex lg:space-x-12 rtl:space-x-reverse items-center pb-10 lg:pb-0">
-              <div className="md:w-[570px] w-full md:h-[560px] h-auto rounded overflow-hidden my-5 lg:my-0 relative">
+              {/* <div className="md:w-[570px] w-full md:h-[560px] h-auto rounded overflow-hidden my-5 lg:my-0 relative">
                 <Image
                   layout="fill"
                   src={`${
@@ -96,7 +96,7 @@ export default function About({ aboutData }) {
                   alt="about"
                   className="w-full h-full"
                 />
-              </div>
+              </div> */}
               <div className="content flex-1">
                 <div className="about-content">
                   <div
@@ -120,7 +120,7 @@ export default function About({ aboutData }) {
           </div>
         </div>
 
-        <div className="customer-feedback w-full bg-white py-[60px]">
+        {/* <div className="customer-feedback w-full bg-white py-[60px]">
           <div className="title flex justify-center mb-5">
             <h1 className="text-[30px] font-semibold text-[var(--text-color)]">
               {ServeLangItem()?.Customers_Feedback}
@@ -234,8 +234,8 @@ export default function About({ aboutData }) {
               </div>
             </div>
           </div>
-        </div>
-        <div className="container-x mx-auto my-[60px]">
+        </div> */}
+        {/* <div className="container-x mx-auto my-[60px]">
           <div
             data-aos="fade-down"
             className="best-services w-full primary-bg flex flex-col space-y-10 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center lg:h-[110px] px-10 lg:py-0 py-10"
@@ -264,9 +264,9 @@ export default function About({ aboutData }) {
                 </div>
               ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="blog-post-wrapper w-full mb-[100px]">
+        {/* <div className="blog-post-wrapper w-full mb-[100px]">
           <div className="container-x mx-auto">
             <div className="blog-post-title flex justify-center items-cente mb-[30px]">
               <h1 className="text-3xl font-semibold text-[var(--text-color)]">
@@ -290,7 +290,7 @@ export default function About({ aboutData }) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
